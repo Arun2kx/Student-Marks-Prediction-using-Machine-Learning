@@ -44,3 +44,90 @@ Used **Linear Regression** as the primary model.
 
 ### ✔ 5. Prediction
 Given input values (e.g., study hours), the model predicts expected marks.
+
+---
+
+## 📂 Project Structure
+
+```
+student-marks-prediction/
+│
+├── student_marks_prediction.ipynb      # Main notebook (analysis + model)
+├── model.pkl                           # Saved regression model (optional)
+├── sample_data.csv                     # Example dataset
+│
+├── requirements.txt
+├── README.md
+```
+
+---
+
+## 🔧 Tech Stack Used
+
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
+- **Scikit-Learn**
+
+---
+
+## 📊 Dataset Format
+
+Example:
+
+```
+study_hours,attendance,previous_score,marks
+3.5,90,78,82
+2.0,80,65,70
+5.0,95,88,92
+1.5,70,55,60
+```
+
+---
+
+## 🚀 How to Run the Project
+
+### ▶️ 1. Install dependencies
+```
+pip install -r requirements.txt
+```
+
+### ▶️ 2. Open the notebook
+```
+student_marks_prediction.ipynb
+```
+
+### ▶️ 3. Or run the script (if available)
+```
+python student_marks_prediction.py
+```
+
+---
+
+## 📈 Sample Output
+
+- Prediction of marks based on study hours  
+- Graphs showing relationship between study and performance  
+- Heatmap showing feature correlation  
+- Linear regression best-fit line  
+
+---
+
+## 🎯 Project Goal
+
+To help students, teachers, and educational institutions:
+
+- Predict exam performance  
+- Identify weak students early  
+- Provide personalized learning plans  
+- Improve overall academic outcomes  
+
+This project proves how machine learning can support education and decision-making.
+
+---
+
+## 🧑‍💻 Author
+**Arun Banoth**  
+B.Tech CSE, NIT Patna
